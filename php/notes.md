@@ -8,3 +8,12 @@
 - put all the php code in the `<? php YOUR_CODE_HERE ?>`
 - Example: `<?php echo("PHP Program #1"); ?>`
 - check the site.php in www folder
+- Variables:
+
+    ```php
+    $year = 2021;
+    $month = "February";
+    echo "The current month and year(probably) are $month and $year";
+    ```
+
+- above code contains two variables month and year

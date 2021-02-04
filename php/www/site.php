@@ -7,8 +7,15 @@
 </head>
 <body>
 <?php 
- echo "<h1>Summary:</h1>";
- echo "<hr>";
- echo("Yay!"); ?>
+ echo "<h3>Example 1:</h3>";
+  echo("Yay!");
+  echo "<hr>";
+  echo "<h3>Example 2:</h3>";
+  $year = 2021;
+  $month = "February";
+  echo "The current month and year(probably) are $month and $year";
+  echo "<hr>";
+ ?>
+
 </body>
 </html>
