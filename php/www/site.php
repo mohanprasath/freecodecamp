@@ -8,10 +8,12 @@
 <body>
 <?php 
   
+  # program #1
   echo "<h3>Program 1:</h3>";
   echo("Yay!");
   echo "<hr>";
-
+ 
+  # program #2
   echo "<h3>Program 2:</h3>";
   $year = 2021; # number variable
   $month = "February"; # string variable
@@ -26,6 +28,19 @@
   $isLeapYear = false;
   echo "$number $string $decimal";
   echo $isLeapYear ? 'true':'false';
+  echo "<hr>";
+
+  # program #4
+  echo "<h3>Program 4:</h3>";
+  $phrase = "a string variable";
+  echo $phrase;
+  echo "<br/>";
+  $phrase[0] = 'A'; 
+  echo $phrase;
+  echo "<br/>";
+  echo str_replace("string", "String", $phrase);
+  echo "<br/>";
+  echo substr($phrase, 2, 6);
   echo "<hr>";
  ?>
 
